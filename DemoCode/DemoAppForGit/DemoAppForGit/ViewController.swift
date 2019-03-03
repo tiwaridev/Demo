@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func addNumbers(int a, int b) -> Int {
+        let c = a + b
+        return c
+    }
 
 
 }
